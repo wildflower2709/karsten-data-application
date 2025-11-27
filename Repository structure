@@ -1,0 +1,34 @@
+karsten-data-application/
+│
+├── README.md
+│
+├── 1_PowerBI_Dashboard/
+│   ├── PowerBI_Sales_Dashboard.pbix
+│   ├── dataset/ 
+│   │   └── sales_data.csv  (or your dataset)
+│   ├── screenshots/
+│   │   ├── home_page.png
+│   │   └── insights_page.png
+│   ├── dashboard_demo_video.mp4  (optional)
+│   └── README_PowerBI_Sales_Dashboard.md
+│
+├── 2_PowerApp_Automation/
+│   ├── powerapp_export.msapp    (optional if you export)
+│   ├── flow_export.json         (Power Automate flow export)
+│   ├── app_screenshots/
+│   │   ├── form_screen.png
+│   │   └── list_screen.png
+│   ├── data_source/
+│   │   └── inventory_list.xlsx or schema.txt
+│   └── README_PowerApp_Inventory_Request_System.md
+│
+├── 3_Python_ETL_Pipeline/
+│   ├── etl_pipeline.py
+│   ├── requirements.txt
+│   ├── sample_data.csv
+│   ├── database.db (optional)
+│   ├── logs/
+│   │   └── etl_log.txt
+│   └── README_Python_ETL_Pipeline.md
+│
+└── LICENSE (optional)
